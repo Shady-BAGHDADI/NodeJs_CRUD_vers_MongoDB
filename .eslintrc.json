@@ -1,0 +1,33 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2015,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "no-console": 0, //tnajim  ta3mel consol.log
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+           "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single" //lehna manesta5dmouch " " mais ' ' single 
+        ],
+        "semi": [
+            "error", //louken tansa li ; yo5rej errr
+            "always"
+        ]
+    }
+}

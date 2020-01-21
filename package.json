@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "chadi baghdadi",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": [
+    "chadi",
+    "baghdadi"
+  ],
+  "author": "chadi baghdadi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "eslint": "^6.7.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.4.0"
+  }
+}
